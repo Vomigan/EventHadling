@@ -27,7 +27,7 @@ public class ButtonClick extends AppCompatActivity{
             @Override
             public boolean onLongClick(View v) {
                 textView.setText("Long button click");
-                return false;
+                return true;
             }
         });
     }
