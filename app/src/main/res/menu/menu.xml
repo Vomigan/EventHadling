@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="ButtonClick"
+        android:id="@+id/buttonClick"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="MotionEvent"
+        android:id="@+id/motionEvent"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="CommonGestures"
+        android:id="@+id/commonGestures"
+        app:showAsAction="never"
+        />
+
+</menu>
