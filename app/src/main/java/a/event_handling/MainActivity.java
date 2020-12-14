@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.motionEvent:
+                intent = new Intent(this, MtnEvt.class);
+                startActivity(intent);
                 break;
             case R.id.commonGestures:
                 break;
