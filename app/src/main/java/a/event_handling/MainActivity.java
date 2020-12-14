@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.commonGestures:
+                intent = new Intent(this, CmnGsts.class);
+                startActivity(intent);
                 break;
         }
         return super.onOptionsItemSelected(item);
